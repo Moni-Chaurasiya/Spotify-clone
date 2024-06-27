@@ -1,0 +1,404 @@
+body{
+    background-color: black;
+}
+.border{
+ /*  border: 2px solid rgb(4, 97, 125);*/
+}
+.left{
+    width:480px;
+    height: 102vw;
+    position: fixed;
+    
+}
+.right{
+    margin-left: 490px;
+    width: 1440px;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgba(36, 35, 35, 0.651);
+    position: relative;
+    
+}
+.Master{
+    display: flex;
+    flex-direction: row;
+}
+.home{
+    height: 200px;
+    width: 475px;
+    background-color: rgba(17, 17, 17, 0.651);
+    margin: 3px;
+    border-radius: 6px;
+}
+div.library{
+    height:650px;
+    width: 475px;
+    background-color:  rgba(17, 17, 17, 0.651);
+    margin: 3px;
+    border-radius: 6px;
+    
+    
+
+}
+
+.li1,.li2,.li3{
+    color: white;
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+   padding-bottom: 10px;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    list-style: none;
+    
+}
+.ul1{
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.img1,.img2,.img3{
+   width: 28px;
+    padding-right: 20px;
+}
+.img4{
+    width: 20px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.logo{
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.plus{
+    font-size:xx-large;
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 150px;
+
+}
+
+.lib{
+    display: flex;
+    flex-direction: row;
+}
+.div1{
+    height: 170px;
+    width: 455px;
+    background-color: rgb(32, 32, 32);
+     margin-left: 10px ;
+     border-radius: 6px;
+}
+.div2{
+    height: 170px;;
+    width: 455px;
+    background-color: rgb(32, 32, 32);
+    margin-left: 10px ;
+    margin-top: 40px;
+     border-radius: 6px;
+}
+.para1{
+    color:white;
+    font-weight: 500;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    margin-left: 20px;
+    padding-top: 15px;
+}
+
+.para2{
+    color:white;
+    font-weight: normal;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    margin-left: 20px;
+    
+}
+.btn2{
+    height: 40px;
+    width: 150px;
+    margin-left: 20px;
+    border-radius: 20px;
+    font-size: large;
+    font-weight: 600;
+
+}
+.btn3{
+    height: 40px;
+    width: 200px;
+    margin-left: 20px;
+    border-radius: 20px;
+    font-size: large;
+    font-weight: 600;
+}
+
+div.scrollbar{
+     overflow-x: hidden;
+     overflow-y: auto;
+     height: 300px;
+    
+}
+.spotifyPlaylists{
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 70vh;
+    margin-top: 20px;
+}
+
+/*.footer1{
+    width: 1440px;
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+  /*  margin-bottom: 100px;
+     bottom: 0;
+    
+}*/
+/*.footer{
+    width: 1440px;
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-bottom: 100px;
+     bottom: 0;
+    
+}*/
+.footer1{
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-right: 30px;
+}
+.list1{
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.L1,.L2,.L3{
+    display: flex;
+    flex-direction: row;
+}
+
+.globle{
+    color: white;
+    width:120px;
+    height: 40px;
+    background-color: rgb(16, 16, 16) ;
+    border: 1px solid gray;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 20px;
+    
+}
+.english{
+    margin-left: 5px;
+    font-size: large;
+    font-weight: 600;
+}
+/*.list{
+    list-style: none;
+    margin-left: 20px;
+    font-size: larger;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}*/
+
+/*.copy{
+    float:right;
+    list-style: none;
+    margin-left: 25vw;
+    font-size: larger;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}*/
+
+.header{
+    border:1px solid red;
+    width: 1435px;
+    height: 80px;
+    position: fixed;
+    display: flex;
+    align-self: center;
+    background-color: rgb(11, 11, 11);
+    z-index: 10;
+
+}
+/*.img5{
+    width:20px;
+   margin-top: 4px;
+}
+.img6{
+    width:20px;
+    margin-left: 5px;
+   
+}*/
+.btn4{
+    display: flex;
+    align-self: center;
+    background-color: rgb(13, 13, 13);
+    border: 2px solid  rgb(13, 13, 13);
+    height: 37px;
+    width: 40px;
+    margin-left: 10px;
+    border-radius: 18px;
+}
+.head1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+    z-index: 10;
+}
+/* .head2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 42vw;
+
+}
+.btn5{
+    width:170px;
+    height:40px;
+    border:2px solid white;
+    border-radius: 25px;
+    font-size: medium;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.btn6{
+    width:140px;
+    height:40px;
+    background-color: black;
+    border:2px solid black;
+    border-radius: 25px;
+    color: white;
+    font-weight: 600;
+    font-size: medium;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+
+}
+.install{
+    margin-left: 10px;
+}  */
+.head3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50vw;
+    z-index: 10;
+}
+
+.btn7{
+    color: rgb(161, 160, 160);
+    width:130px;
+    height:60px;
+    background-color: rgba(28, 28, 28, 0.651);
+    border: rgba(28, 28, 28, 0.651);
+    border-radius: 30px;
+    font-size: large;
+    font-weight: 600;
+    margin-left: 10px;  
+}
+.btn8{
+    width:130px;
+    height:60px;
+    border:2px solid white;
+    border-radius: 30px;
+    font-size: large;
+    font-weight: 600;
+    margin-left: 10px;   
+    
+}
+
+
+div.playlist{
+    color:white;
+    margin-top: 100px;
+    margin-left: 45px;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+}
+
+.card1{
+    width: 240px;
+    height: 350px;
+    margin-left: 50px;
+    margin-top: 30px;
+    background-color: rgb(36, 36, 36);
+    border-radius: 10px;
+    position: relative;
+    
+}
+.I1{
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.H1{
+    font-weight: 400;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+}
+.P1{
+    color:gray;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+}
+.play{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(54, 202, 54);
+    border: 2px solid rgb(54, 202, 54);
+    border-radius: 30px;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 150px;
+    display: none;
+}
+.card1:hover{
+    .play{ 
+        display: block;
+    }
+  
+}
+
+.cardContainer{
+    display: flex;
+    flex-direction: row;
+}
+/*.break{
+height: 2px;
+background-color: gray;
+bottom: 0;
+position: absolute;
+}*/
+
+.PlayBar{
+    height:120px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px   ;
+}
+
+
+
